@@ -2,36 +2,45 @@ package org.example;
 abstract class ACar implements Car
 {
 
-    String regrisrationNumber;
-    String make;
-    String model;
-    int numberOfDoors;
+    protected String registrationNumber;
+    protected String make;
+    protected String model;
+    protected int numberOfDoors;
 
-    public String getRegistrationNumber() {
-        return null;
+    public ACar(String registrationNumber, String make, String model, int numberOfDoors){
+        this.registrationNumber = registrationNumber;
+        this.make = make;
+        this.model = model;
+        this.numberOfDoors = numberOfDoors;
+    }
+
+
+    public String getRegistrationNumber()
+    {
+        return registrationNumber;
     }
 
     public String getMake()
     {
 
-        return null;
+        return make;
     }
 
     public String getModel()
     {
 
-        return null;
+        return model;
     }
 
     public int getNumberOfDoors()
     {
 
-        return 0;
+        return numberOfDoors;
     }
 
     @Override
     public String toString()
     {
-        return null;
+        return super.toString() + "\n" + getRegistrationNumber() + getMake() + getModel() + getNumberOfDoors();
     }
 }
