@@ -1,7 +1,5 @@
-# SP2-Opgave
+Henrik Thunbo Jensen
+cph-hj286@cphbusiness.dk
 
-Repository for SP2-Opgave
-
-Tobias Hansen
-
-cph-th401@cphbusiness.dk
+# SP2
+ SP2 opgave
